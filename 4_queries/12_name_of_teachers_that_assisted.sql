@@ -8,3 +8,4 @@ JOIN cohorts
 ON students.cohort_id = cohorts.id
 WHERE cohorts.name = 'JUL02'
 GROUP BY teachers.name, cohorts.name
+;
